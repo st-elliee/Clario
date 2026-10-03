@@ -1,0 +1,32 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Node
+node_modules/
+dist/
+
+# Uploaded client documents and logs
+backend/uploads/
+backend/logs/
+*.log
+
+# Real data must never be committed
+*.xlsx
+*.xls
+*.csv
+*dump*.sql
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.vercel
