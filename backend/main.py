@@ -39,8 +39,11 @@ def update_overdue_services():
             AND service_id != 1
         """)
         conn.commit()
-    finally:
         cursor.close()
+    except Exception as e:
+        # Never block startup (e.g. empty database before the first demo reset)
+        print(f"Overdue update skipped: {e}")
+    finally:
         conn.close()
 
 @asynccontextmanager
