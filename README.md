@@ -5,7 +5,7 @@
 ![Vite](https://img.shields.io/badge/Vite-Tailwind_CSS-646CFF?logo=vite&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-8-4479A1?logo=mysql&logoColor=white)
 
-### 🔗 [Live demo](LIVE_DEMO_URL)
+### 🔗 [Live demo](https://clario-demo-puce.vercel.app)
 
 *All data in the demo is fictional and is reset every day. Log in with one click as **Admin** or **Employee**.*
 
